@@ -29,8 +29,8 @@ class Books extends Component {
                     <Row>
                         {this.state.books.map(b => {
                             return (
-                                <Col xs={6} md={4} lg={3} className="mb-3">
-                                    <Card key={b.asin}>
+                                <Col key={b.asin} xs={6} md={4} lg={3} className="mb-3">
+                                    <Card>
                                         <Card.Img variant="top" src={b.img} />
                                         <Card.Body>
                                             <Card.Title title={b.title}>{b.title}</Card.Title>
