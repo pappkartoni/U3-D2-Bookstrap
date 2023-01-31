@@ -47,3 +47,7 @@
   -webkit-line-clamp: 2;
   overflow: hidden;
 }
+
+.bg-dark {
+  background-color: #2C1C10!important;
+}
