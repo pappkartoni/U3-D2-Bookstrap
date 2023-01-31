@@ -33,7 +33,7 @@ class Books extends Component {
                                     <Card key={b.asin}>
                                         <Card.Img variant="top" src={b.img} />
                                         <Card.Body>
-                                            <Card.Title>{b.title}</Card.Title>
+                                            <Card.Title title={b.title}>{b.title}</Card.Title>
                                             <Card.Text>
                                             {b.category} - {b.price}€
                                             </Card.Text>
