@@ -35,7 +35,7 @@ class Books extends Component {
                                         <Card.Body>
                                             <Card.Title title={b.title}>{b.title}</Card.Title>
                                             <Card.Text>
-                                            {b.category} - {b.price}€
+                                            {b.category} - {b.price.toFixed(2)}€
                                             </Card.Text>
                                         </Card.Body>
                                     </Card>
